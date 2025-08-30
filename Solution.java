@@ -5,7 +5,7 @@ import java.util.*;
 public class Solution {
     public static void main(String[] args) throws Exception {
         // Read JSON file into string
-        BufferedReader br = new BufferedReader(new FileReader("test2.json"));
+        BufferedReader br = new BufferedReader(new FileReader("test1.json"));
         StringBuilder sb = new StringBuilder();
         String line;
         while ((line = br.readLine()) != null) {
